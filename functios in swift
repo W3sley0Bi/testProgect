@@ -1,0 +1,49 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+/*
+ es.
+ func name (argumentLabel parameterName: Data Type){
+ some code
+ }
+ 
+ */
+var str = "Hello, playground"
+
+let a = 3.3
+let b = 1.7
+
+func add(){///dichiarare la funzione
+   let c = a + b
+    print (c)
+}
+add() ///esecuzione
+
+///or
+
+func mul() -> Double{
+    let c = a * b
+    return c
+}
+let sum1 = mul()
+print (sum1)
+
+///or
+
+func sub(arg para: Float, arg1 para1: Float) -> Float{ ///ci fa ritornare il risultato di tipo Float
+    let ab = para
+    let c: Float = ab - para1
+    return c
+}
+let sum = sub(arg: 11.3, arg1: 7.1234567)
+print (sum)
+
+///or
+func div(_ num1:Int, _ num2:Int) -> Int{
+    let a = num1
+    let b = num2
+    let c : Int = a / b
+    return c
+}
+let sum2 = div(10,2 )
+print(sum2)
