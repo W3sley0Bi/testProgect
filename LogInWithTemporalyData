@@ -1,0 +1,33 @@
+//
+//  main.swift
+//  test1Mimo
+//
+//  Created by Wesley Obi on 17/09/18.
+//  Copyright © 2018 Wesley Obi. All rights reserved.
+//
+
+import Foundation
+print("inserisci la tua email e la password:\n"
+    + "email : ")
+    var email1 = readLine()!
+print("Password")
+    var pass1 = readLine()!
+
+print("perfetto, ora che che hai completato la registrazione effettua l'accesso")
+
+print ("inserisci la tua email: ")
+      let email = readLine()!
+if email == email1{
+    
+    let str = "inserisci la tua password: "
+    print(str)
+    let pass = readLine()!
+
+    if pass == pass1 {
+        print ("welcome")
+    }else if pass != pass1{
+        print("OPS!? Qualcosa è andato storto")
+    }
+}else{
+    print("OPS!? Qualcosa è andato storto")
+}
